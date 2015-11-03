@@ -1,0 +1,34 @@
+{
+  "name": "AnalyticFL",
+  "version": "0.1.0",
+  "summary": "A short description of AnalyticFL.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/AnalyticFL",
+  "license": "MIT",
+  "authors": {
+    "gaoyang": "geekgaoyang@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/AnalyticFL.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "AnalyticFL": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "frameworks": "CoreLocation",
+  "dependencies": {
+    "GamePluginBase": [
+
+    ],
+    "Flurry-iOS-SDK/FlurrySDK": [
+      "<= 7.1.0"
+    ]
+  }
+}
