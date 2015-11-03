@@ -1,15 +1,15 @@
 {
   "name": "AnalyticFL",
   "version": "0.1.0",
-  "summary": "A short description of AnalyticFL.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/AnalyticFL",
+  "summary": "AnalyticFL.",
+  "description": "AnalyticFL..",
+  "homepage": "https://github.com/ietstudio/AnalyticFL",
   "license": "MIT",
   "authors": {
     "gaoyang": "geekgaoyang@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/AnalyticFL.git",
+    "git": "https://github.com/ietstudio/AnalyticFL.git",
     "tag": "0.1.0"
   },
   "platforms": {

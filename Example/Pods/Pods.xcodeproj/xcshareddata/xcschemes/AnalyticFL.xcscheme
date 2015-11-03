@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '50E14182DEDC4992A4D80B4E'
+               BlueprintIdentifier = 'BE71712EEB4C51AD315F8E8D'
                BlueprintName = 'AnalyticFL'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'AnalyticFL.framework'>
