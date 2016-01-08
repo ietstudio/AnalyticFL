@@ -2,7 +2,7 @@ PODS:
   - AnalyticFL (0.1.0):
     - Flurry-iOS-SDK/FlurrySDK (<= 7.1.0)
     - GamePluginBase
-  - Expecta (1.0.3)
+  - Expecta (1.0.5)
   - Expecta+Snapshots (2.0.0):
     - Expecta (~> 1.0)
     - FBSnapshotTestCase/Core (~> 2.0.3)
@@ -12,8 +12,8 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.0.7):
     - FBSnapshotTestCase/Core
   - Flurry-iOS-SDK/FlurrySDK (7.1.0)
-  - GamePluginBase (0.1.2)
-  - Specta (1.0.4)
+  - GamePluginBase (0.1.5)
+  - Specta (1.0.5)
 
 DEPENDENCIES:
   - AnalyticFL (from `../`)
@@ -28,11 +28,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AnalyticFL: 87a25a906fe8415362acdec2cf5bb5594b3b3c61
-  Expecta: 9d1bff6c8b0eeee73a166a2ee898892478927a15
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
   Expecta+Snapshots: 29b38dd695bc72a0ed2bea833937d78df41943ba
   FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
   Flurry-iOS-SDK: 7b3fe6c3344c82b73c4c84163652eada84fbfcf4
-  GamePluginBase: 0b06986d6fbae9b986dfc8bfa754ab9a45f1b0de
-  Specta: 69bb134672aae190a1379ff91df07dad8dd1f869
+  GamePluginBase: 6a80d832346bb17a34704b714914c1c1d619c6fa
+  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
 
 COCOAPODS: 0.39.0

@@ -39,8 +39,12 @@ SINGLETON_DEFINITION(FLAnalyticHelper)
 }
 
 - (void)onEvent:(NSString *)eventId Label:(NSString *)label {
-    NSDictionary* dict = [NSDictionary dictionaryWithObject:label forKey:@"key"];
-    [Flurry logEvent:eventId withParameters:dict];
+    NSDictionary* userInfo = [NSDictionary dictionaryWithObject:label forKey:@"key"];
+    [self onEvent:eventId eventData:userInfo];
+}
+
+- (void)onEvent:(NSString *)eventId eventData:(NSDictionary *)userInfo {
+    [Flurry logEvent:eventId withParameters:userInfo];
 }
 
 - (void)setLevel:(int)level {
