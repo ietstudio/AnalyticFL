@@ -1,5 +1,5 @@
 PODS:
-  - AnalyticFL (0.1.0):
+  - AnalyticFL (0.1.1):
     - Flurry-iOS-SDK/FlurrySDK (<= 7.1.0)
     - GamePluginBase
   - Expecta (1.0.5)
@@ -27,7 +27,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AnalyticFL: 87a25a906fe8415362acdec2cf5bb5594b3b3c61
+  AnalyticFL: 7fb192c4f0966f5663b974b6b8f52c143bdcc734
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
   Expecta+Snapshots: 29b38dd695bc72a0ed2bea833937d78df41943ba
   FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
