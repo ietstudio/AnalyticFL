@@ -1,0 +1,45 @@
+PODS:
+  - AnalyticFL (0.1.2):
+    - Flurry-iOS-SDK/FlurrySDK (<= 7.1.0)
+    - GamePluginBase
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - Flurry-iOS-SDK/FlurrySDK (7.1.0)
+  - GamePluginBase (0.1.7):
+    - BlocksKit (~> 2.2.5)
+    - MBProgressHUD (~> 0.9.1)
+    - Reachability (~> 3.2)
+  - MBProgressHUD (0.9.2)
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - AnalyticFL (from `../`)
+
+EXTERNAL SOURCES:
+  AnalyticFL:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AnalyticFL: 9629f0071886a0570d80ac4a16ce4d4b50e6220a
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  Flurry-iOS-SDK: 7b3fe6c3344c82b73c4c84163652eada84fbfcf4
+  GamePluginBase: f154df85a4134b2165697728bdab164aaf8681d0
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+PODFILE CHECKSUM: 39975e2dec743b3098918441d8824a794b39fb70
+
+COCOAPODS: 1.0.1
