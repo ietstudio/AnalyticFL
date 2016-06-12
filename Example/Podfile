@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AnalyticFL_Example' do
+  pod 'AnalyticFL', :path => '../'
+
+  target 'AnalyticFL_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
