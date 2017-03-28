@@ -57,18 +57,18 @@ SINGLETON_DEFINITION(FLAnalyticHelper)
 }
 
 - (void)reward:(double)coin :(int)type {
-    NSDictionary* dict = @{@"coin":@(coin), @"type":@(type)};
-    [Flurry logEvent:@"reward" withParameters:dict];
+//    NSDictionary* dict = @{@"coin":@(coin), @"type":@(type)};
+//    [Flurry logEvent:@"reward" withParameters:dict];
 }
 
 - (void)purchase:(NSString *)name :(int)amount :(double)coin {
-    NSDictionary* dict = @{@"name":name, @"amount":@(amount), @"coin":@(coin)};
-    [Flurry logEvent:@"purchase" withParameters:dict];
+//    NSDictionary* dict = @{@"name":name, @"amount":@(amount), @"coin":@(coin)};
+//    [Flurry logEvent:@"purchase" withParameters:dict];
 }
 
 - (void)use:(NSString *)name :(int)amount :(double)coin {
-    NSDictionary* dict = @{@"name":name, @"amount":@(amount), @"coin":@(coin)};
-    [Flurry logEvent:@"use" withParameters:dict];
+//    NSDictionary* dict = @{@"name":name, @"amount":@(amount), @"coin":@(coin)};
+//    [Flurry logEvent:@"use" withParameters:dict];
 }
 
 - (void)missionStart:(NSString *)missionId {

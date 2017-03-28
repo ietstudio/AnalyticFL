@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AnalyticFL'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'AnalyticFL'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ AnalyticFL.
   s.homepage         = 'https://github.com/ietstudio/AnalyticFL'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'gaoyang' => 'gaoyang@joycastle.mobi' }
+  s.author           = { 'gaoyang' => 'geekgaoyang@gmail.com' }
   s.source           = { :git => 'https://github.com/ietstudio/AnalyticFL.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -41,6 +41,6 @@ AnalyticFL.
   # s.dependency 'AFNetworking', '~> 2.3'
 
   s.dependency 'GamePluginBase'
-  s.dependency 'Flurry-iOS-SDK/FlurrySDK', '<= 7.1.0'
+  s.dependency 'Flurry-iOS-SDK/FlurrySDK', '~> 7.10.0'
 
 end
