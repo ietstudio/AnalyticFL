@@ -56,6 +56,12 @@ SINGLETON_DEFINITION(FLAnalyticHelper)
     [Flurry logEvent:@"charge" withParameters:dict];
 }
 
+- (void)charge:(SKPaymentTransaction *)transaction {
+    [Flurry logPaymentTransaction:transaction statusCallback:^(FlurryTransactionRecordStatus status) {
+        NSLog(@"%d", status);
+    }];
+}
+
 - (void)reward:(double)coin :(int)type {
 //    NSDictionary* dict = @{@"coin":@(coin), @"type":@(type)};
 //    [Flurry logEvent:@"reward" withParameters:dict];
