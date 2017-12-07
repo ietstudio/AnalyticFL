@@ -19,7 +19,7 @@ PODS:
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
   - Flurry-iOS-SDK/FlurrySDK (7.10.0)
-  - GamePluginBase (0.2.5):
+  - GamePluginBase (0.2.6):
     - ALAssetsLibrary-CustomPhotoAlbum (~> 1.3.0)
     - BlocksKit (~> 2.2.5)
     - MBProgressHUD (~> 0.9.1)
@@ -45,7 +45,7 @@ SPEC CHECKSUMS:
   AnalyticFL: 33ea447b679b7fef373a694f9b438227f3690475
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   Flurry-iOS-SDK: e6975df9e57010d582bf9bed0f6312553cf24bc2
-  GamePluginBase: 854352898a74117e50719ad1507ea12ed8f60a89
+  GamePluginBase: 736b1e51149da8e9911c066962566ae3bf41e758
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   NSLogger: 5ed223a2436df96244e033be750656dacdeec034
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96

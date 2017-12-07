@@ -63,18 +63,15 @@ SINGLETON_DEFINITION(FLAnalyticHelper)
 }
 
 - (void)reward:(double)coin :(int)type {
-//    NSDictionary* dict = @{@"coin":@(coin), @"type":@(type)};
-//    [Flurry logEvent:@"reward" withParameters:dict];
+
 }
 
 - (void)purchase:(NSString *)name :(int)amount :(double)coin {
-//    NSDictionary* dict = @{@"name":name, @"amount":@(amount), @"coin":@(coin)};
-//    [Flurry logEvent:@"purchase" withParameters:dict];
+
 }
 
 - (void)use:(NSString *)name :(int)amount :(double)coin {
-//    NSDictionary* dict = @{@"name":name, @"amount":@(amount), @"coin":@(coin)};
-//    [Flurry logEvent:@"use" withParameters:dict];
+
 }
 
 - (void)missionStart:(NSString *)missionId {
@@ -92,12 +89,17 @@ SINGLETON_DEFINITION(FLAnalyticHelper)
     [Flurry logEvent:@"missionFailed" withParameters:dict];
 }
 
+- (NSString *)getName {
+    return @"Flurry";
+}
+
 #pragma mark - LifeCycleDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     NSString* flurryKey = [[IOSSystemUtil getInstance] getConfigValueWithKey:FLURRY_KEY];
-    [Flurry startSession:flurryKey];
-    [Flurry setCrashReportingEnabled:NO];
+    FlurrySessionBuilder *builder = [FlurrySessionBuilder new];
+    [builder withCrashReporting:NO];
+    [Flurry startSession:flurryKey withSessionBuilder:builder];
     CLLocationManager *locationManager = [[CLLocationManager alloc] init];
     [locationManager startUpdatingLocation];
     CLLocation *location = locationManager.location;
